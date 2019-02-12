@@ -5,49 +5,41 @@ using UnityEngine;
 
 public class MoveCarWaypoint : MonoBehaviour
 {
-
-    public BGCcTrs curveMove;
     public BGCcCursor cursor;
-    public float moveAmount = 1;
+    public float moveAmount = 0;
+    public bool loop;
+    public GameObject car;
 
-    private void Awake()
-    {
-        if (curveMove != null)
-        {
-            curveMove.Speed = 0.01f;
-            curveMove.Speed = 0;
-        }
-    }
+    public ControlInputs stopInput;
+
+    private bool atEnd = false;
 
     private void Update()
     {
         if (cursor != null)
         {
-            if (cursor.DistanceRatio == 1)
+            if (cursor.DistanceRatio >= 1)
             {
-                cursor.DistanceRatio = 0;
+                if (loop)
+                {
+                    cursor.DistanceRatio = 0;
+                }
+                else
+                {
+                    atEnd = true;
+                    if(stopInput != null)
+                        car.GetComponent<CarController>().input = stopInput;
+                    
+                    GetComponent<BoxCollider>().enabled = false;
+                }
             }
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (curveMove != null)
-        {
-            curveMove.Speed = moveAmount;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (curveMove != null)
-        {
-            curveMove.Speed = 0;    
         }
     }
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.gameObject != car) return;
+        
         if (cursor != null)
         {
             cursor.Distance += moveAmount * Time.deltaTime;

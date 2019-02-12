@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class CarController : NetworkBehaviour
+public class CarController : MonoBehaviour
 {
     [HideInInspector]
     public float horizontalInput;
@@ -20,29 +20,16 @@ public class CarController : NetworkBehaviour
 
     public float maxWheelAngle = 30f;
     public float forwardTorquePower = 2000f;
-    public float reverseTorquePower = 1500;
-    public float breakPower = 3000f;
-    public bool breaking;
+    public float reverseTorquePower = 1000f;
+    public float breakPower = 1000f;
+    public bool braking;
 
     public Transform carWaypoint;
 
     public bool AI;
 
-    private void Awake()
-    {
-//        if (!isLocalPlayer)
-//        {
-//            input = null;
-//        }
-        
-    }
-
     public void FixedUpdate()
     {
-        if (!isLocalPlayer && !AI)
-        {
-            return;
-        }
         GetInput();
         Steer();
         Accelerate();
@@ -56,7 +43,12 @@ public class CarController : NetworkBehaviour
 //        breaking = Input.GetButton("Brake");
         if (input != null)
         {
-            input.GetInputs(this);
+            CarInputs inputs = input.GetInputs(this);
+            horizontalInput = inputs.horizontal;
+            verticalInput = inputs.vertical;
+            braking = inputs.braking;
+            
+//            input.GetInputs(this);
         }
     }
 
@@ -75,16 +67,14 @@ public class CarController : NetworkBehaviour
     private void Accelerate()
     {
         //====Breaking Stuff====
-        if (breaking)
-        {
-            print("Braking!");
-        }
+ 
         //Set braking force on wheels if breaking
         foreach (var axel in axels)
         {
-            if (breaking && axel.breaks)
+            if (braking && axel.breaks)
             {
                 axel.SetBrakeTorque(breakPower);
+//                print("Braking!");
             }
             else
             {
@@ -178,4 +168,11 @@ public class Axel
         trans.position = pos;
         trans.rotation = rot;
     }
+}
+
+public struct CarInputs
+{
+    public float horizontal;
+    public float vertical;
+    public bool braking;
 }

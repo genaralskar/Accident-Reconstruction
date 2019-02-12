@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class ControlInputs : ScriptableObject
 {
-    public abstract void GetInputs(CarController cc);
+    public abstract CarInputs GetInputs(CarController cc);
 }
