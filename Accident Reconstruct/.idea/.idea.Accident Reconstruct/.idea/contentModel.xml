@@ -155,13 +155,13 @@
         <e p="CameraControllerSimple.cs" t="Include" />
         <e p="CarController.cs" t="Include" />
         <e p="CarSpawnManager.cs" t="Include" />
+        <e p="CarSystemManager.cs" t="Include" />
         <e p="ControlInputs" t="Include">
           <e p="CIAIToPoint.cs" t="Include" />
           <e p="CIConfig.cs" t="Include" />
           <e p="CIPlayer.cs" t="Include" />
           <e p="ControlInputs.cs" t="Include" />
         </e>
-        <e p="CreateNewCurve.cs" t="Include" />
         <e p="destroyNonLocalHost.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="PositionHandleExampleEditor.cs" t="Include" />

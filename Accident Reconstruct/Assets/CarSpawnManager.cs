@@ -28,7 +28,7 @@ public class CarSpawnManager : MonoBehaviour
     private LineRenderer lineRender;
     private List<GameObject> objsToDisable;
     [HideInInspector]
-    public CreateNewCurve curveSpawner;
+    public CarSystemManager curveSpawner;
     
     public bool active = false;
 
@@ -42,12 +42,12 @@ public class CarSpawnManager : MonoBehaviour
     private void Awake()
     {
         objsToDisable = new List<GameObject>();
-        CreateNewCurve.StartCar += SetCarBehavior;
+        CarSystemManager.StartSim += StartSimHandler;
     }
 
     private void OnDestroy()
     {
-        CreateNewCurve.StartCar -= SetCarBehavior;
+        CarSystemManager.StartSim -= StartSimHandler;
     }
 
     private void Update()
@@ -183,11 +183,6 @@ public class CarSpawnManager : MonoBehaviour
         arrow.transform.SetParent(newCurve.transform.GetChild(newCurve.transform.childCount - 1));
     }
 
-    public void SetCarBehavior(ControlInputs newBehavior)
-    {
-        carController.input = newBehavior;
-    }
-
     private void SetupControlTranslateArrow(GameObject controlPoint)
     {
         //get the current curvePoint
@@ -234,4 +229,16 @@ public class CarSpawnManager : MonoBehaviour
         closedCurve = closed;
         carWayPoint.loop = closed;
     }
+    
+    public void StartSimHandler(ControlInputs newBehavior)
+    {
+        carController.input = newBehavior;
+        //set current states
+            //position
+            //rotation
+            //wheel speed
+            //velocity
+    }
+    
+    
 }

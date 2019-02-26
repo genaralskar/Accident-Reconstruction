@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
+using TMPro;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityStandardAssets._2D;
 
 public class CarController : MonoBehaviour
 {
@@ -27,6 +30,20 @@ public class CarController : MonoBehaviour
     public Transform carWaypoint;
 
     public bool AI;
+
+    //start variables
+    private Vector3 startPosition;
+    private Quaternion startRotation;
+    private Vector3 startVelocity;
+    private Dictionary<WheelCollider, Vector3> startWheelAngularVels;
+    private List<Vector3> startWheelTorque;
+    private ControlInputs startBehavior;
+
+    private void Start()
+    {
+        CarSystemManager.StartSim += SetStartValues;
+        CarSystemManager.ResetSim += ResetCarValues;
+    }
 
     public void FixedUpdate()
     {
@@ -120,7 +137,38 @@ public class CarController : MonoBehaviour
         {
             axel.UpdateWheelPoses();
         }
-    }   
+    }
+    
+    public void SetStartValues(ControlInputs inputs)
+    {
+        startPosition = transform.position;
+        startRotation = transform.rotation;
+        startVelocity = rb.velocity;
+        
+        startWheelAngularVels = new Dictionary<WheelCollider, Vector3>();
+        foreach (var axel in axels)
+        {
+            startWheelAngularVels.Add(axel.LWheelCollider, axel.LWheelCollider.attachedRigidbody.angularVelocity);
+            startWheelAngularVels.Add(axel.RWheelCollider, axel.RWheelCollider.attachedRigidbody.angularVelocity);
+        }
+
+        startBehavior = input;
+    
+        rb.isKinematic = false;
+    }
+
+    public void ResetCarValues()
+    {
+        rb.isKinematic = true;
+        rb.velocity = startVelocity;
+        transform.position = startPosition;
+        transform.rotation = startRotation;
+
+        foreach (KeyValuePair<WheelCollider, Vector3> wheelPair in startWheelAngularVels)
+        {
+            wheelPair.Key.attachedRigidbody.angularVelocity = wheelPair.Value;
+        }
+    }
 }
 
 [System.Serializable]

@@ -14,6 +14,14 @@ public class MoveCarWaypoint : MonoBehaviour
 
     private bool atEnd = false;
 
+    private float startCurvePos;
+
+    private void Start()
+    {
+        CarSystemManager.StartSim += StartSimHandler;
+        CarSystemManager.ResetSim += ResetSimHandler;
+    }
+
     private void Update()
     {
         if (cursor != null)
@@ -44,5 +52,15 @@ public class MoveCarWaypoint : MonoBehaviour
         {
             cursor.Distance += moveAmount * Time.deltaTime;
         }
+    }
+
+    private void StartSimHandler(ControlInputs inputs)
+    {
+        startCurvePos = cursor.Distance;
+    }
+
+    private void ResetSimHandler()
+    {
+        cursor.Distance = startCurvePos;
     }
 }
