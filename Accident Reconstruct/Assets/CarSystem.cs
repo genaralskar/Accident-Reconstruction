@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class CarSpawnManager : MonoBehaviour
+public class CarSystem : MonoBehaviour
 {
     [Header("Car Stuff")]
     public GameObject carPrefab;
@@ -27,12 +27,19 @@ public class CarSpawnManager : MonoBehaviour
     private BGCurve curve;
     private LineRenderer lineRender;
     private List<GameObject> objsToDisable;
+    
+    [HideInInspector]
+    //List of spawned objs along the curve
+    public List<MoveAlongCurve> MACs;
+    
     [HideInInspector]
     public CarSystemManager curveSpawner;
     
     public bool active = false;
 
+    //called to set if this is the active car system
     public UnityAction<bool> ChangeActivation;
+    //called to make this not the current active car system
     public static UnityAction CurveEnd;
 
     [Header("Stuff controlled by UI")]
@@ -42,6 +49,7 @@ public class CarSpawnManager : MonoBehaviour
     private void Awake()
     {
         objsToDisable = new List<GameObject>();
+        MACs = new List<MoveAlongCurve>();
         CarSystemManager.StartSim += StartSimHandler;
     }
 
@@ -63,6 +71,7 @@ public class CarSpawnManager : MonoBehaviour
             }
             else if (Physics.Raycast(ray, out hit))
             {
+                //add point to curve
                 Vector3 controlPoint1 = Vector3.right * 3;
                 curve.AddPoint(new BGCurvePoint(curve, hit.point, curveType, controlPoint1, -controlPoint1));
                 SetupTranslateArrow(CurveObj);
@@ -87,7 +96,7 @@ public class CarSpawnManager : MonoBehaviour
             lineRender.enabled = true;
         }
         SetActiveGOs(true);
-        curveSpawner.currentManager = this;
+        CarSystemManager.currentManager = this;
         curveSpawner.SetCurrentCurveUIActive(true);
         
         ChangeActivation?.Invoke(active);
@@ -238,6 +247,47 @@ public class CarSpawnManager : MonoBehaviour
             //rotation
             //wheel speed
             //velocity
+    }
+
+    //instantiate a game object and proper components to have it move along the curve
+    public void AddTranslateObjectToCurve(GameObject newObj)
+    {
+        MoveAlongCurve newMAC = newObj.GetComponent<MoveAlongCurve>();
+        if (newMAC == null)
+        {
+            Debug.LogWarning("Object " + newObj + " does not have a MoveAlongCurve compnenet attached, but is trying to" +
+                             " be is needed to work with SpawnObjOnCurve script");
+            return;
+        }
+
+        //spawn obj to move
+        GameObject obj = Instantiate(newObj);
+        
+        //create new cursor for obj to translate along
+        BGCcCursor newCursor = CurveObj.AddComponent<BGCcCursor>();
+        
+        //add new CursorObjectTranslate to set translated object
+        BGCcCursorObjectTranslate newTranslate = CurveObj.AddComponent<BGCcCursorObjectTranslate>();
+        //add cursor objec trotate to set rotation
+        BGCcCursorObjectRotate newRotate = CurveObj.AddComponent<BGCcCursorObjectRotate>();
+        
+        //set newTranslate's and newRotate's cursor to the new cursor
+        newTranslate.Cursor = newCursor;
+        newRotate.Cursor = newCursor;
+        
+        //set obj to be moved by newTranslate and newRotate
+        newTranslate.ObjectToManipulate = obj.transform;
+        newRotate.ObjectToManipulate = obj.transform;
+        
+        //set newMACs cursor to new cursor
+        newMAC.curvePosition = newCursor;
+        newMAC.UpdatePos(0);
+        
+        MACs.Add(newMAC);
+        
+        curveSpawner.UpdateCurveCurveMovers();
+        
+        print("all the stuff is setup");
     }
     
     

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ActivateCurve : MonoBehaviour
 {
-    [HideInInspector] public CarSpawnManager manager;
+    [HideInInspector] public CarSystem manager;
     private void OnMouseDown()
     {
         if (!manager.active)
