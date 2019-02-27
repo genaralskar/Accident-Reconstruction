@@ -14,7 +14,7 @@
       <file leaf-file-name="MoveCarWaypoint.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MoveCarWaypoint.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
+            <state relative-caret-position="945">
               <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
             </state>
           </provider>
@@ -29,67 +29,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarSystemManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CarSystemManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarSystem.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/CarSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-              <folding>
-                <marker date="1551224334093" expanded="false" signature="6:147" ph="..." />
-                <marker date="1551224334093" expanded="true" signature="187:10299" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="1405:1562" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="1592:1658" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="1685:2594" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="1871:2495" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="1971:2033" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="2085:2485" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="2537:2588" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="2627:3031" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="2750:2809" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="3066:3340" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="3141:3201" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="3383:3492" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="3432:3486" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="3533:5543" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="5602:6355" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="6173:6241" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="6425:8259" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="7002:7110" ph="/* set new setcuvecontrol... curve point to proper curve point so it can move it ... */" />
-                <marker date="1551224334093" expanded="true" signature="7157:7339" ph="/* print(curveControl.curvePoint); ... */" />
-                <marker date="1551224334093" expanded="true" signature="8130:8198" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="8304:8412" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="8476:8655" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="8534:8649" ph="/* set current states ... */" />
-                <marker date="1551224334093" expanded="true" signature="8803:10287" ph="{...}" />
-                <marker date="1551224334093" expanded="true" signature="8908:9154" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoveAlongCurve.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/MoveAlongCurve.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SpawnObjOnCurve.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SpawnObjOnCurve.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            <state relative-caret-position="195">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarSystemManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CarSystemManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="103" column="106" selection-start-line="103" selection-start-column="106" selection-end-line="103" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarSystem.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CarSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="256" column="67" selection-start-line="256" selection-start-column="67" selection-end-line="256" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveAlongCurve.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/MoveAlongCurve.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+              <folding>
+                <marker date="1551235919870" expanded="false" signature="6:137" ph="..." />
+                <marker date="1551235919870" expanded="true" signature="182:1129" ph="{...}" />
+                <marker date="1551235919870" expanded="true" signature="309:427" ph="{...}" />
+                <marker date="1551235919870" expanded="true" signature="457:575" ph="{...}" />
+                <marker date="1551235919870" expanded="true" signature="607:660" ph="{...}" />
+                <marker date="1551235919870" expanded="true" signature="753:916" ph="{...}" />
+                <marker date="1551235919870" expanded="true" signature="971:1033" ph="{...}" />
+                <marker date="1551235919870" expanded="true" signature="1066:1127" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +78,7 @@
       <file leaf-file-name="BGCcCursorObjectTranslate.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcCursorObjectTranslate.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="225">
               <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
@@ -115,7 +96,7 @@
       <file leaf-file-name="BGCcWithCursor.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcWithCursor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="345">
               <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
             </state>
           </provider>
@@ -124,7 +105,7 @@
       <file leaf-file-name="BGCcCursor.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcCursor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="375">
               <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
@@ -156,42 +137,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcWithCursorObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcCursor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcCursorObjectTranslate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Toon.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ActivateCurve.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Speedometer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/destroyNonLocalHost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpawnObjOnCurve.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePointGO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/ControlInputs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MoveAlongCurve.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CarSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/CIAIToPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SetCenterOfMass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SpawnParticleOnImpact.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePointI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/CIConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurve.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Toon.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SetCurveControlToGizmoPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/CIPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraControllerSimple.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Speedometer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ActivateCurve.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/destroyNonLocalHost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePointI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurve.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityGizmos/Scripts/GizmoTranslateScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Curve/BGCurvePoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/PositionHandleExampleEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Editor/Curve/BGCurveEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SetCenterOfMass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpawnParticleOnImpact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MoveAlongCurve.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CarSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PositionHandleExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcVisualizationLineRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CarSystemManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcWithCursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcWithCursorObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcCursorObjectTranslate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveCarWaypoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AntirollBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AddCurvePointTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PositionHandleExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UnityGizmos/Scripts/GizmoTranslateScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcVisualizationLineRenderer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SpawnObjOnCurve.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraControllerSimple.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcWithCursor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CarSystemManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/CIConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AntirollBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/ControlInputs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/CIAIToPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ControlInputs/CIPlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -228,9 +209,9 @@
         <option value="$PROJECT_DIR$/Assets/CarSpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/SpawnBehaviorChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/SpawnObjOnCurve.cs" />
-        <option value="$PROJECT_DIR$/Assets/MoveAlongCurve.cs" />
         <option value="$PROJECT_DIR$/Assets/CarSystemManager.cs" />
         <option value="$PROJECT_DIR$/Assets/CarSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/MoveAlongCurve.cs" />
       </list>
     </option>
   </component>
@@ -266,11 +247,11 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,9 +272,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="47568">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="47568" />
+      <option name="pid" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -318,11 +299,12 @@
       <workItem from="1549642972971" duration="11422000" />
       <workItem from="1550194890412" duration="6820000" />
       <workItem from="1551218157042" duration="6208000" />
+      <workItem from="1551233753064" duration="2625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75851000" />
+    <option name="totallyTimeSpent" value="78476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,21 +323,21 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25053304" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -376,7 +358,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/CarSystemManager.cs</url>
+          <line>99</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/CarSystemManager.cs" initialLine="99">
+            <startOffsets>
+              <startOffset value="2951" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="3034" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
@@ -610,26 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2325">
           <caret line="157" column="52" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="52" />
-          <folding>
-            <marker date="1551215274762" expanded="false" signature="6:70" ph="..." />
-            <marker date="1551215274762" expanded="true" signature="72:415" ph="///     Simple script to handle the functionality of the Translate Gizmo (i.e. move the gizmo ... " />
-            <marker date="1551215274762" expanded="true" signature="466:6619" ph="{...}" />
-            <marker date="1551215274762" expanded="true" signature="473:533" ph="///     X axis of gizmo ... " />
-            <marker date="1551215274762" expanded="true" signature="574:634" ph="///     Y axis of gizmo ... " />
-            <marker date="1551215274762" expanded="true" signature="675:735" ph="///     Z axis of gizmo ... " />
-            <marker date="1551215274762" expanded="true" signature="776:843" ph="///     Target for translation ... " />
-            <marker date="1551215274762" expanded="true" signature="888:978" ph="///     Array of detector scripts stored as [x, y, z] ... " />
-            <marker date="1551215274762" expanded="true" signature="1070:1125" ph="///     On wake up ... " />
-            <marker date="1551215274762" expanded="true" signature="1150:1634" ph="{...}" />
-            <marker date="1551215274762" expanded="true" signature="1640:1699" ph="///     Once per frame ... " />
-            <marker date="1551215274762" expanded="true" signature="1725:6616" ph="{...}" />
-            <marker date="1551215274762" expanded="true" signature="1763:6610" ph="{...}" />
-            <marker date="1551215274762" expanded="true" signature="1831:6600" ph="{...}" />
-            <marker date="1551215274762" expanded="true" signature="2226:6287" ph="{...}" />
-            <marker date="1551215274762" expanded="true" signature="2477:3155" ph="{...}" />
-            <marker date="1551215274762" expanded="true" signature="3826:4508" ph="{...}" />
-            <marker date="1551215274762" expanded="true" signature="5176:5852" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,21 +647,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MoveCarWaypoint.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
+        <state relative-caret-position="945">
           <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcCursor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="375">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcCursorObjectTranslate.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="225">
           <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
@@ -698,22 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/BansheeGz/BGCurve/Scripts/Cc/BGCcWithCursor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="345">
           <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SpawnObjOnCurve.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MoveAlongCurve.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -724,45 +687,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SpawnObjOnCurve.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CarSystemManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+        <state relative-caret-position="498">
+          <caret line="103" column="106" selection-start-line="103" selection-start-column="106" selection-end-line="103" selection-end-column="106" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CarSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="270">
+          <caret line="256" column="67" selection-start-line="256" selection-start-column="67" selection-end-line="256" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MoveAlongCurve.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
           <folding>
-            <marker date="1551224334093" expanded="false" signature="6:147" ph="..." />
-            <marker date="1551224334093" expanded="true" signature="187:10299" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="1405:1562" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="1592:1658" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="1685:2594" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="1871:2495" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="1971:2033" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="2085:2485" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="2537:2588" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="2627:3031" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="2750:2809" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="3066:3340" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="3141:3201" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="3383:3492" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="3432:3486" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="3533:5543" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="5602:6355" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="6173:6241" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="6425:8259" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="7002:7110" ph="/* set new setcuvecontrol... curve point to proper curve point so it can move it ... */" />
-            <marker date="1551224334093" expanded="true" signature="7157:7339" ph="/* print(curveControl.curvePoint); ... */" />
-            <marker date="1551224334093" expanded="true" signature="8130:8198" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="8304:8412" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="8476:8655" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="8534:8649" ph="/* set current states ... */" />
-            <marker date="1551224334093" expanded="true" signature="8803:10287" ph="{...}" />
-            <marker date="1551224334093" expanded="true" signature="8908:9154" ph="{...}" />
+            <marker date="1551235919870" expanded="false" signature="6:137" ph="..." />
+            <marker date="1551235919870" expanded="true" signature="182:1129" ph="{...}" />
+            <marker date="1551235919870" expanded="true" signature="309:427" ph="{...}" />
+            <marker date="1551235919870" expanded="true" signature="457:575" ph="{...}" />
+            <marker date="1551235919870" expanded="true" signature="607:660" ph="{...}" />
+            <marker date="1551235919870" expanded="true" signature="753:916" ph="{...}" />
+            <marker date="1551235919870" expanded="true" signature="971:1033" ph="{...}" />
+            <marker date="1551235919870" expanded="true" signature="1066:1127" ph="{...}" />
           </folding>
         </state>
       </provider>

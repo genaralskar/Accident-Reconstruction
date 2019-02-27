@@ -71,11 +71,11 @@ public class CarSystemManager : MonoBehaviour
         if (active)
         {
             UpdateCurrentCurveUI();
-            UpdateCurveCurveMovers();
+            UpdateCurveMoversDropDown();
         }
     }
 
-    public void UpdateCurveCurveMovers()
+    public void UpdateCurveMoversDropDown()
     {
         List<TMP_Dropdown.OptionData> newOptions = new List<TMP_Dropdown.OptionData>();
         var i = 0;
@@ -87,18 +87,19 @@ public class CarSystemManager : MonoBehaviour
         currentCurveMoversUI.ClearOptions();
         currentCurveMoversUI.AddOptions(newOptions);
         
-        UpdateCurrentMoverPositionUI(currentCurveMoversUI.value);
+        UpdateCurrentMoverPositionSlider(currentCurveMoversUI.value);
     }
 
-    public void UpdateCurrentMoverPositionUI(int moverSelection)
+    public void UpdateCurrentMoverPositionSlider(int moverSelection)
     {
         print("mover selection: " + moverSelection);
+        //if the MACs list is empty, don't do anything
         if (currentManager.MACs.Count == 0) return;
         currentMoverPositionUI.onValueChanged.RemoveAllListeners();
         
-        if (currentManager.MACs[moverSelection] == null) return;
         currentMoverPositionUI.value = currentManager.MACs[moverSelection].currentPosition;
         print("mover position: " + currentManager.MACs[moverSelection].currentPosition);
+        print("mover: " + currentManager.MACs[moverSelection]);
         
         currentMoverPositionUI.onValueChanged?.AddListener(currentManager.MACs[moverSelection].UpdatePos);
         print(currentManager.MACs);

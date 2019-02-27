@@ -4856,7 +4856,7 @@ GameObject:
   - component: {fileID: 434680141}
   - component: {fileID: 434680140}
   m_Layer: 5
-  m_Name: Dropdown (1)
+  m_Name: Movers To Spawn DropDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5180,7 +5180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455601540}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 406.01224, y: 214.69661, z: 0.0625}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9328,7 +9328,7 @@ GameObject:
   - component: {fileID: 799328865}
   - component: {fileID: 799328866}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: Mover Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12100,7 +12100,7 @@ GameObject:
   - component: {fileID: 1057178645}
   - component: {fileID: 1057178644}
   m_Layer: 5
-  m_Name: Dropdown
+  m_Name: Current Movers Dropdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12177,7 +12177,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 455601541}
-        m_MethodName: UpdateCurrentMoverPositionUI
+        m_MethodName: UpdateCurrentMoverPositionSlider
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16414,7 +16414,7 @@ GameObject:
   - component: {fileID: 1489933634}
   - component: {fileID: 1489933637}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Spawn Mover Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -28,7 +28,7 @@ public class CarSystem : MonoBehaviour
     private LineRenderer lineRender;
     private List<GameObject> objsToDisable;
     
-    [HideInInspector]
+    //[HideInInspector]
     //List of spawned objs along the curve
     public List<MoveAlongCurve> MACs;
     
@@ -252,16 +252,20 @@ public class CarSystem : MonoBehaviour
     //instantiate a game object and proper components to have it move along the curve
     public void AddTranslateObjectToCurve(GameObject newObj)
     {
-        MoveAlongCurve newMAC = newObj.GetComponent<MoveAlongCurve>();
+        //spawn obj to move
+        GameObject obj = Instantiate(newObj);
+        MoveAlongCurve newMAC = obj.GetComponent<MoveAlongCurve>();
         if (newMAC == null)
         {
             Debug.LogWarning("Object " + newObj + " does not have a MoveAlongCurve compnenet attached, but is trying to" +
                              " be is needed to work with SpawnObjOnCurve script");
+            Destroy(newMAC);
             return;
         }
 
-        //spawn obj to move
-        GameObject obj = Instantiate(newObj);
+        
+        
+        obj.name = MACs.Count.ToString();
         
         //create new cursor for obj to translate along
         BGCcCursor newCursor = CurveObj.AddComponent<BGCcCursor>();
@@ -280,14 +284,14 @@ public class CarSystem : MonoBehaviour
         newRotate.ObjectToManipulate = obj.transform;
         
         //set newMACs cursor to new cursor
-        newMAC.curvePosition = newCursor;
+        newMAC.cursor = newCursor;
         newMAC.UpdatePos(0);
         
         MACs.Add(newMAC);
         
-        curveSpawner.UpdateCurveCurveMovers();
+        curveSpawner.UpdateCurveMoversDropDown();
         
-        print("all the stuff is setup");
+        print("added new mover to curve");
     }
     
     
